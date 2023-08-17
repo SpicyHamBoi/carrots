@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Carrots | Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>&#129365; Carrots &#129365;</h1>
+        <p>Welcome to the website mostly about carrots!</p>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>&#129365; About carrots &#129365;</h3>
+            <b>Quote from Wikipedia about carrots:</b>
+            <p>-The carrot (Daucus carota subsp. sativus) is a root vegetable, typically orange in color, though purple, black, red, white, and yellow cultivars exist, all of which are domesticated forms of the wild carrot, Daucus carota, native to Europe and Southwestern Asia. </p>
+            <p>Carrots are grown from seed and can take up to four months (120 days) to mature.</p>
+            <h3>China produces the most carrots. Roughly 17.8 million tonnes</h3>
+            <center>
+                <a href="https://en.wikipedia.org/wiki/Carrot" target="_blank">Visit the official Wikipedia about carrots!</a>
+            </center>
+        </div>
+        <div class="col-sm-4">
+            <h3>&#129365; Picture of carrots &#129365;</h3>
+            <p>This is a picture of multiple carrots</p>
+            <img src="./img/carrots.jpg" alt="carrots" style="width:300px;height:200px;">
+        </div>
+        <div class="col-sm-4">
+            <h3>&#129365; About this page &#129365;</h3>
+            <b>Carrots.</b>
+            <i>This page has no meaning since it was created out of pure boredom.</i>
+
+
+
+
+
+            <script>
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "You have collected " + localStorage.clickcount + " carrot(s).";
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script>
+            </head>
+            <body>
+
+
+
+
+
+            <center>
+                <p><button onclick="clickCounter()" type="button">&#129365;Collect carrots&#129365;</button></p>
+                <div id="result"></div>
+                <em>Click the button to collect more carrots</em>
+                <center/>
+
+            </body>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="jumbotron">
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>&#129365; Carrot recepies &#129365;</h3>
+                <a href="https://www.acouplecooks.com/carrot-recipes/" target="_blank">20 Carrot recepies</a>
+                <p>Here are 20 recepies with carrots.</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>&#129365; Another picture of carrots &#129365;</h3>
+                <p>This is a picture of multiple carrots</p>
+                <img src="./img/carrots2.jpg" alt="carrots" style="width:300px;height:200px;">
+            </div>
+            <div class="col-sm-4">
+                <h3>&#129365; More information about carrots &#129365;</h3>
+                <p>Raw carrots are 88% water, 9% carbohydrates, 0.9% protein, 2.8% dietary fiber, 1% ash and 0.2% fat.</p>
+
+
+
+</body>
+</html>
